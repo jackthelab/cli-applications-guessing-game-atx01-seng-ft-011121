@@ -8,7 +8,7 @@ def run_guessing_game
   input = gets.chomp
   
   if input == comp_num
-    puts "you guessed the correct number."
+    puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
   else
