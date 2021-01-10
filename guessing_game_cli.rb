@@ -3,7 +3,7 @@ def run_guessing_game
   
   comp_num = rand(1..6).to_s
   
-  puts "Guess a number from 1 thru 6."
+  print "Guess a number from 1 thru 6."
   
   input = gets.chomp
   
